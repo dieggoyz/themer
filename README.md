@@ -1,5 +1,7 @@
 # ThemeSwitchJS
 
+> This utility was created in 2021, when (I think) the color-scheme property was not globally supported on all devices/browsers. Nowadays, it is much more practical to use [color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme).
+
 ## What's this?
 
 ThemeSwitchJS is a simple JavaScript application that allows users to customize the theme of a web page with ease. With this application, users can choose from various color themes, including light, dark, themes based on their device settings, and themes opposite to their device settings.
