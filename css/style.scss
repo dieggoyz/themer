@@ -1,5 +1,13 @@
-:root {
+html {
   color-scheme: light dark;
+}
+
+[data-theme="light"] {
+  color-scheme: light only;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark only;
 }
 
 * {
@@ -14,7 +22,7 @@
 }
 
 body {
-  font: 400 clamp(.5rem, 10vw, 1rem) "Inter", system-ui;
+  font: 400 1rem "Inter", system-ui;
   transition: background-color .25s ease, color .25s ease;
 }
 
@@ -26,4 +34,8 @@ body {
   overflow: hidden;
   width: 100vw;
   text-align: center;
+}
+
+select {
+  font-family: inherit;
 }
